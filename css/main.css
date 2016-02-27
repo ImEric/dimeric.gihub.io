@@ -477,6 +477,13 @@ body {
     width: 900px;
   }
 }
+@media (max-width: 767px) {
+  .main-inner,
+  .header-inner,
+  .footer-inner {
+    width: auto;
+  }
+}
 pre,
 .highlight {
   background: #f7f7f7;
@@ -1528,7 +1535,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #7952ff;
+  background: #cc8e1f;
 }
 .sidebar-nav {
   margin: 0 0 20px;
