@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-28T03:30:55.000Z</updated>
+  <updated>2016-02-28T07:34:15.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,15 +16,63 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Pomodoro - UI Designs</title>
+    <link href="http://yoursite.com/2016/02/27/Pomodoro%20Designs/"/>
+    <id>http://yoursite.com/2016/02/27/Pomodoro Designs/</id>
+    <published>2016-02-28T06:19:16.000Z</published>
+    <updated>2016-02-28T07:34:15.000Z</updated>
+    
+    <content type="html">&lt;p&gt;All of the designs are completed using the Mac App &lt;a href=&quot;https://www.sketchapp.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sketch&lt;/a&gt; (It sells at $99, but you can get it at $49 by providing them a photocopy of your student ID)&lt;/p&gt;
+&lt;p&gt;(Attached are some screenshots, detailed explaination will be uploaded later)&lt;/p&gt;
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Loading Screen.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen Start.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Slide Menu.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Stats.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Farm.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen 20.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen 15.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen 10.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen 05.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen End.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen End Prompt.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen Short Break.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;
+
+&lt;div align=&quot;center&quot;&gt;&lt;br&gt;    &lt;img src=&quot;/uploads/Main Screen Long Break.png&quot; width=&quot;300&quot; align=&quot;center&quot;&gt;&lt;br&gt;&lt;/div&gt;</content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;All of the designs are completed using the Mac App &lt;a href=&quot;https://www.sketchapp.com&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Sketch&lt;/a&gt; (It sell
+    
+    </summary>
+    
+      <category term="Art and Design" scheme="http://yoursite.com/categories/Art-and-Design/"/>
+    
+    
+      <category term="iOS" scheme="http://yoursite.com/tags/iOS/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Pomodoro - Introduction</title>
-    <link href="http://yoursite.com/2016/02/26/Pomodoro/"/>
-    <id>http://yoursite.com/2016/02/26/Pomodoro/</id>
+    <link href="http://yoursite.com/2016/02/26/Pomodoro%20Introduction/"/>
+    <id>http://yoursite.com/2016/02/26/Pomodoro Introduction/</id>
     <published>2016-02-27T03:28:52.000Z</published>
-    <updated>2016-02-28T03:30:55.000Z</updated>
+    <updated>2016-02-28T06:18:28.000Z</updated>
     
     <content type="html">&lt;p&gt;Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve this then? I spent some time researching on task management skills and found something interesting called &lt;a href=&quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Pomodoro Technique&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Basically, a long period of time is divided into several Pomodoro Clocks with 25 minutes each. Within each clock, we are only allowed to focus on one thing. If we are not distracted and fight till the last second, then the task succeeds, otherwise it will not count. After each clock, we can choose to take a short break (usually 4 minutes) or start another clock. The idea of this technique is to train users to break an intimidating task into less challenging ones and conquer each one of them seperatly.&lt;/p&gt;
-&lt;p&gt;So my app adopts this technique and visualizes the process of completing a task as growing a plant. If users successfully complete a task, they will get rewarded with a fully grown tomato (or other plants) and some coins. Tomatos help users to keep track of the total number of tasks completed while coins allows users to unlock more plants and functions.&lt;/p&gt;
+&lt;p&gt;So my app adopts this technique and visualizes the process of completing a task as growing a plant. If users successfully complete a task, they will get rewarded with a fully grown tomato (or other plants) and some coins. Tomatos help users to keep track of the total number of tasks completed while coins allow users to unlock more plants and functions.&lt;/p&gt;
 &lt;p&gt;Some additonal functions include:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Visualization of Task Data&lt;/strong&gt;: One can easily see how many tasks are completed in total or on average; what is the productive time period in a day and so on. &lt;/li&gt;

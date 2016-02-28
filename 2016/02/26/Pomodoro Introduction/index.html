@@ -41,7 +41,7 @@
 <link href="/css/main.css?v=0.5.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="iOS," />
 
 
 
@@ -59,19 +59,16 @@
 
 
 
-<meta name="description" content="Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I like.
-I am currently a undergraduate student at UCLA majoring i">
+<meta name="description" content="Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World!">
-<meta property="og:url" content="http://yoursite.com/2016/02/24/hello_world/index.html">
+<meta property="og:title" content="Pomodoro - Introduction">
+<meta property="og:url" content="http://yoursite.com/2016/02/26/Pomodoro Introduction/index.html">
 <meta property="og:site_name" content="Eric Hu's Blog">
-<meta property="og:description" content="Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I like.
-I am currently a undergraduate student at UCLA majoring i">
-<meta property="og:updated_time" content="2016-02-28T02:33:44.000Z">
+<meta property="og:description" content="Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve">
+<meta property="og:updated_time" content="2016-02-28T06:18:28.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hello World!">
-<meta name="twitter:description" content="Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I like.
-I am currently a undergraduate student at UCLA majoring i">
+<meta name="twitter:title" content="Pomodoro - Introduction">
+<meta name="twitter:description" content="Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve">
 
 
 
@@ -89,7 +86,7 @@ I am currently a undergraduate student at UCLA majoring i">
   };
 </script>
 
-  <title> Hello World! | Eric Hu's Blog </title>
+  <title> Pomodoro - Introduction | Eric Hu's Blog </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="en">
@@ -229,7 +226,7 @@ I am currently a undergraduate student at UCLA majoring i">
             
             
               
-                Hello World!
+                Pomodoro - Introduction
               
             
           </h1>
@@ -241,8 +238,8 @@ I am currently a undergraduate student at UCLA majoring i">
               <i class="fa fa-calendar-o"></i>
             </span>
             <span class="post-meta-item-text">Posted on</span>
-            <time itemprop="dateCreated" datetime="2016-02-24T18:20:52-08:00" content="2016-02-24">
-              2016-02-24
+            <time itemprop="dateCreated" datetime="2016-02-26T19:28:52-08:00" content="2016-02-26">
+              2016-02-26
             </time>
           </span>
 
@@ -255,8 +252,8 @@ I am currently a undergraduate student at UCLA majoring i">
               <span class="post-meta-item-text">In</span>
               
                 <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/About-me/" itemprop="url" rel="index">
-                    <span itemprop="name">About me</span>
+                  <a href="/categories/App-Development/" itemprop="url" rel="index">
+                    <span itemprop="name">App Development</span>
                   </a>
                 </span>
 
@@ -286,28 +283,47 @@ I am currently a undergraduate student at UCLA majoring i">
       
 
       
-        <p>Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I like.</p>
-<p>I am currently a undergraduate student at UCLA majoring in Mathematics of Computation. Though I had my first PC when I was eight, I haven’t had any experience with ‘serious’ programming until I took my first CS course at UCLA. It was challenging to me at first because the introductory courses were heavily theory based and I am the kind of person who like exploring and building new stuff rather than computing the dull and intimidating algorithms. (But I have to do that to get a job, sigh.)</p>
-<p>However, I soon found my interest in mobile development, and particularly in iOS development after the release of the new language, Swift. It is clear, simple and handy. By building apps, I also get to brush up my designing skills. (I started painting since I was six but I merely practice it nowadays due to heavy schoolwork.)</p>
-<p>Currently, I am working on a task management app called <a href="https://github.com/ImEric/Pomodoro" target="_blank" rel="external">Pomodoro</a>. And I plan to note down every progress I made or obstacles I encountered during the development of this app here.</p>
-<p>Hello, world! I am here.</p>
+        <p>Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve this then? I spent some time researching on task management skills and found something interesting called <a href="https://en.wikipedia.org/wiki/Pomodoro_Technique" target="_blank" rel="external">The Pomodoro Technique</a>. </p>
+<p>Basically, a long period of time is divided into several Pomodoro Clocks with 25 minutes each. Within each clock, we are only allowed to focus on one thing. If we are not distracted and fight till the last second, then the task succeeds, otherwise it will not count. After each clock, we can choose to take a short break (usually 4 minutes) or start another clock. The idea of this technique is to train users to break an intimidating task into less challenging ones and conquer each one of them seperatly.</p>
+<p>So my app adopts this technique and visualizes the process of completing a task as growing a plant. If users successfully complete a task, they will get rewarded with a fully grown tomato (or other plants) and some coins. Tomatos help users to keep track of the total number of tasks completed while coins allow users to unlock more plants and functions.</p>
+<p>Some additonal functions include:</p>
+<ul>
+<li><strong>Visualization of Task Data</strong>: One can easily see how many tasks are completed in total or on average; what is the productive time period in a day and so on. </li>
+</ul>
+<ul>
+<li><p><strong>Leader Board</strong>: Users may compete with their friends and other users all over the world which gives them extra motivation.</p>
+</li>
+<li><p><strong>To Do List and Habit Cultivation</strong>: Users may adopt the Pomodoro technique on their daily tasks or any thing they want to repeat every day. </p>
+</li>
+</ul>
+<p>There may be add-ons and extensions to this app. So if you are interested or have any suggestions, don’t hesitate to share your brilliant ideas!</p>
 
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/iOS/" rel="tag">#iOS</a>
+          
+        </div>
+      
 
       
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
+              <a href="/2016/02/24/hello_world/" rel="next" title="Hello World!">
+                <i class="fa fa-chevron-left"></i> Hello World!
+              </a>
+            
           </div>
 
           <div class="post-nav-prev post-nav-item">
             
-              <a href="/2016/02/26/Pomodoro Introduction/" rel="prev" title="Pomodoro - Introduction">
-                Pomodoro - Introduction <i class="fa fa-chevron-right"></i>
+              <a href="/2016/02/27/Pomodoro Designs/" rel="prev" title="Pomodoro - UI Designs">
+                Pomodoro - UI Designs <i class="fa fa-chevron-right"></i>
               </a>
             
           </div>
