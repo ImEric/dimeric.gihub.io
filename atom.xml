@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Eric Hu&#39;s Blog</title>
-  
+  <subtitle>Where creativity and aesthetic meet</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2016-02-27T04:40:23.000Z</updated>
+  <updated>2016-02-28T03:30:55.000Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -16,23 +16,35 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Pomodoro - UI Design</title>
+    <title>Pomodoro - Introduction</title>
     <link href="http://yoursite.com/2016/02/26/Pomodoro/"/>
     <id>http://yoursite.com/2016/02/26/Pomodoro/</id>
     <published>2016-02-27T03:28:52.000Z</published>
-    <updated>2016-02-27T04:40:23.000Z</updated>
+    <updated>2016-02-28T03:30:55.000Z</updated>
     
-    <content type="html">&lt;p&gt;Last Winter, I decided to do something for myself. I have always been struggling with the issue of procrastination. &lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
+    <content type="html">&lt;p&gt;Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I questioned myself, why don’t I just build some thing to solve this then? I spent some time researching on task management skills and found something interesting called &lt;a href=&quot;https://en.wikipedia.org/wiki/Pomodoro_Technique&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;The Pomodoro Technique&lt;/a&gt;. &lt;/p&gt;
+&lt;p&gt;Basically, a long period of time is divided into several Pomodoro Clocks with 25 minutes each. Within each clock, we are only allowed to focus on one thing. If we are not distracted and fight till the last second, then the task succeeds, otherwise it will not count. After each clock, we can choose to take a short break (usually 4 minutes) or start another clock. The idea of this technique is to train users to break an intimidating task into less challenging ones and conquer each one of them seperatly.&lt;/p&gt;
+&lt;p&gt;So my app adopts this technique and visualizes the process of completing a task as growing a plant. If users successfully complete a task, they will get rewarded with a fully grown tomato (or other plants) and some coins. Tomatos help users to keep track of the total number of tasks completed while coins allows users to unlock more plants and functions.&lt;/p&gt;
+&lt;p&gt;Some additonal functions include:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Visualization of Task Data&lt;/strong&gt;: One can easily see how many tasks are completed in total or on average; what is the productive time period in a day and so on. &lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;Leader Board&lt;/strong&gt;: Users may compete with their friends and other users all over the world which gives them extra motivation.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;&lt;strong&gt;To Do List and Habit Cultivation&lt;/strong&gt;: Users may adopt the Pomodoro technique on their daily tasks or any thing they want to repeat every day. &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;There may be add-ons and extensions to this app. So if you are interested or have any suggestions, don’t hesitate to share your brilliant ideas!&lt;/p&gt;
 </content>
     
     <summary type="html">
     
-      &lt;p&gt;Last Winter, I decided to do something for myself. I have always been struggling with the issue of procrastination. &lt;/p&gt;
-&lt;p&gt;…&lt;/p&gt;
-
+      &lt;p&gt;Last Winter, I decided to do something for myself. For many years, I have been struggling with the issue of procrastination. So one day I
     
     </summary>
+    
+      <category term="App Development" scheme="http://yoursite.com/categories/App-Development/"/>
     
     
       <category term="iOS" scheme="http://yoursite.com/tags/iOS/"/>
@@ -41,15 +53,15 @@
   
   <entry>
     <title>Hello World!</title>
-    <link href="http://yoursite.com/2016/02/26/hello_world/"/>
-    <id>http://yoursite.com/2016/02/26/hello_world/</id>
-    <published>2016-02-27T03:21:23.000Z</published>
-    <updated>2016-02-27T03:21:23.000Z</updated>
+    <link href="http://yoursite.com/2016/02/24/hello_world/"/>
+    <id>http://yoursite.com/2016/02/24/hello_world/</id>
+    <published>2016-02-25T02:20:52.000Z</published>
+    <updated>2016-02-28T02:33:44.000Z</updated>
     
     <content type="html">&lt;p&gt;Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I like.&lt;/p&gt;
-&lt;p&gt;I am currently a undergraduate student at UCLA majoring in Mathematics of Computation. Though I had my first PC when I was eight, I haven’t had any experience with ‘serious’ programming until I took my first CS course at UCLA. It was challenging to me at first because the introductory courses were heavily theory based and I am the kind of person who like exploring and building new stuff rather than computing the dull and intimidating algorithms. (But I have to do that to get a job, sign.)&lt;/p&gt;
-&lt;p&gt;However, I soon found my interest in mobile development, and in particular iOS development after the release of the new language, Swift. It is clear, simple and swifty (indeed as it is named). More importantly, by building apps, I get to brush up my designing skills. (I started painting since I was six but I merely practice it nowadays due to heavy schoolwork.)&lt;/p&gt;
-&lt;p&gt;Currently, I am building a task management app called &lt;a href=&quot;https://github.com/ImEric/Pomodoro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pomodoro&lt;/a&gt;. And I plan to note down every progress I made or obstacles I encountered during the development of this app. Hopefully, it will get published and being appreciated by others.&lt;/p&gt;
+&lt;p&gt;I am currently a undergraduate student at UCLA majoring in Mathematics of Computation. Though I had my first PC when I was eight, I haven’t had any experience with ‘serious’ programming until I took my first CS course at UCLA. It was challenging to me at first because the introductory courses were heavily theory based and I am the kind of person who like exploring and building new stuff rather than computing the dull and intimidating algorithms. (But I have to do that to get a job, sigh.)&lt;/p&gt;
+&lt;p&gt;However, I soon found my interest in mobile development, and particularly in iOS development after the release of the new language, Swift. It is clear, simple and handy. By building apps, I also get to brush up my designing skills. (I started painting since I was six but I merely practice it nowadays due to heavy schoolwork.)&lt;/p&gt;
+&lt;p&gt;Currently, I am working on a task management app called &lt;a href=&quot;https://github.com/ImEric/Pomodoro&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Pomodoro&lt;/a&gt;. And I plan to note down every progress I made or obstacles I encountered during the development of this app here.&lt;/p&gt;
 &lt;p&gt;Hello, world! I am here.&lt;/p&gt;
 </content>
     
@@ -58,6 +70,8 @@
       &lt;p&gt;Thanks to hexo and github page, I finally had a personal blog to record down how I progressed through out learning and building things I 
     
     </summary>
+    
+      <category term="About me" scheme="http://yoursite.com/categories/About-me/"/>
     
     
   </entry>
